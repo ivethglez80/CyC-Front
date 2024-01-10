@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gifts" element={<GiftsView />} />
-          <Route path="/gifts-list" element={<GiftListforGuests />} />
+          
           <Route path="/lista-invitados" element={<GuestCardsContainer />} />
         </Routes>
       </BrowserRouter>
