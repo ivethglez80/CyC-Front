@@ -5,7 +5,7 @@ import './App.css'
 import Home from './views/home'
 import Footer from './modules/footer'
 import GiftsView from './views/giftsView'
-import GiftListforGuests from './dashboards/GiftListforGuests'
+
 import GuestCardsContainer from './cards/guestsDshBrd/guestCardsContainer'
 
 
