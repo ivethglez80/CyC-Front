@@ -69,7 +69,7 @@ const GuestCardsContainer = () => {
                             <p>Nombre</p>
                         </div>
                         <div className="w-1/5 flex justify-center">
-                            <p>Asistencia: </p> <p>{confOk}</p>
+                            <p>Asistencia: &nbsp;</p> <p>{confOk}</p>
                         </div>
                     </div>
                     

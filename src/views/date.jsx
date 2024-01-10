@@ -5,9 +5,9 @@ const Date = () =>{
     return(
         <>
         <div className="text-center pb-10 pt-14 md:pt-14 md:flex md:flex-col md:justify-center">
-            <h2 className="font-juana uppercase md:hidden">¡LOS ESPERAMOS PARA <br /> CELEBRAR JUNTOS ESTE DIA</h2>
-            <div className="flex flex-row justify-center">
-            <h2 className="font-juana uppercase hidden md:block text-3xl">¡LOS ESPERAMOS PARA CELEBRAR JUNTOS ESTE DIA</h2><p className="font-normal md:text-4xl">!</p>
+            <h2 className="font-juana uppercase md:hidden">LOS ESPERAMOS PARA <br /> CELEBRAR JUNTOS ESTE DIA</h2>
+            <div className="">
+            <h2 className="font-juana uppercase hidden md:block text-3xl">LOS ESPERAMOS PARA CELEBRAR JUNTOS ESTE DIA</h2>
             </div>
             <div className="border-b border-slate-400 pb-10 w-3/6 mx-auto hidden md:block"></div>
         </div>
