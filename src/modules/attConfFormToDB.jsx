@@ -69,7 +69,7 @@ const AttConfFormToDB = ({closeForm}) => {
         event.preventDefault();
         console.log("datos en form", form);
         if (form.nombre && form.cantidad) {
-            const response = axios.post(postGuestUrl, form)
+            const response = axios.post("/guestsDB", form)
                 .then(res => {
                     
                     nextCard();
