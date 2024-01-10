@@ -1,0 +1,23 @@
+[
+{
+    "artImg": "https://st.depositphotos.com/1000422/1553/v/450/depositphotos_15535469-stock-illustration-present.jpg",
+    "artName": "Nombre del articulo 1",
+    "artDescription": "descripcion del articulo",
+    "artLink": "link al articulo",
+    "artStore": ""
+},
+{
+    "artImg": "https://st.depositphotos.com/1000422/1553/v/450/depositphotos_15535469-stock-illustration-present.jpg",
+    "artName": "",
+    "artDescription": "descripcion del articulo",
+    "artLink": "link al articulo",
+    "artStore": "tienda sugerida para conseguir el articulo"
+},
+{
+    "artImg": "https://st.depositphotos.com/1000422/1553/v/450/depositphotos_15535469-stock-illustration-present.jpg",
+    "artName": "Nombre del articulo 3",
+    "artDescription": "descripcion del articulo",
+    "artLink": "",
+    "artStore": "tienda sugerida para conseguir el articulo"
+}
+]
