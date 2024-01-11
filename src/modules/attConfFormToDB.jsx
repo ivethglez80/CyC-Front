@@ -99,16 +99,16 @@ const AttConfFormToDB = ({closeForm}) => {
         {currentCard===1 && (
             <CardOne form={form} onChangeHandler={changeHandler} onNext={nextCard} onPrev={prevCard} onClose={closeForm} errors={errors}/>
         )}
-        {currentCard===2 && (
+        {/* {currentCard===2 && (
             <CardTwoT form={form} onChangeHandler={changeHandler} onSubmit={submitHandler} onNext={nextCard} onPrev={prevCard} errors={errors}/>
         )}
         {currentCard===3 && (
             <CardTwoM form={form} onChangeHandler={changeHandler} onSubmit={submitHandler} onNext={nextCard} onPrev={prevCard} errors={errors}/>
-        )}
-         {currentCard===4 && (
+        )} */}
+         {currentCard===2 && (
             <CardTwo form={form} onChangeHandler={changeHandler} onSubmit={submitHandler} onNext={nextCard} onPrev={prevCard} errors={errors}/>
         )}
-        {currentCard===5 && (
+        {currentCard===3 && (
             <CardThree onClose={closeForm}/>
         )}
         </div>                 

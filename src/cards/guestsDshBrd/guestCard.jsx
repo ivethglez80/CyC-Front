@@ -12,16 +12,16 @@ const Card = ({ id, nombre, apellido, telefono, email, cantidad, asiste }) => {
     const dispatch = useDispatch();
 
     const toggleAsiste = (e) => {
-        e.stopPropagation(); // Detiene la propagación del evento al padre
-        dispatch(putAsiste(id, !asiste));
+       
+        dispatch(putAsiste(id, asiste));
     }
 
-    const [showDetail, setShowDetail] = useState(false);
+    // const [showDetail, setShowDetail] = useState(false);
 
-    const toggleDetail = (e) => {
-        e.stopPropagation(); // Detiene la propagación del evento al padre
-        setShowDetail(!showDetail);
-    }
+    // const toggleDetail = (e) => {
+    //     e.stopPropagation(); // Detiene la propagación del evento al padre
+    //     setShowDetail(!showDetail);
+    // }
 
     return (
         <>
@@ -35,12 +35,12 @@ const Card = ({ id, nombre, apellido, telefono, email, cantidad, asiste }) => {
                 </div>
 
                 <div className={`w-1/5 flex justify-center hover:bg-grisi ${asiste ? 'bg-white text-black' : 'bg-stone-400 text-stone-500'}`}>
-                    <button onClick={toggleDetail}>
-                        ver detalle
+                    <button onClick={toggleAsiste}>
+                        {asiste ? <FaCheckCircle className="text-2xl text-musgo hover:text-green-700" /> : <FaCircleXmark className="text-xl text-musgo hover:text-green-700" />}
                     </button>
                 </div>
             </div>
-            {showDetail && <GuestDetail id={id} nombre={nombre} apellido={apellido} telefono={telefono} email={email} cantidad={cantidad} asiste={asiste} closeDetail={toggleDetail} />}
+           
         </>
     )
 };

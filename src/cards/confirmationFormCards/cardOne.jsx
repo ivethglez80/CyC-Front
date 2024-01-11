@@ -9,7 +9,7 @@ const CardOne = ({ form, onChangeHandler, onNext, onPrev, onClose, errors }) => 
                     <p className="font-seasons text-white text-center text-xl">Hola, confirmanos tu asistencia</p>
                 </div>
                 <div className="flex justify-center mt-6 mb-2 md:justify-start">                    
-                    <input type="text" value={form.nombre} onChange={onChangeHandler} name="nombre" placeholder="Ingresa tu nombre"
+                    <input type="text" value={form.nombre} onChange={onChangeHandler} name="nombre" placeholder="Ingresa Nombre y Apellido"
                     className="bg-grisi hover:bg-white hover:shadow-md p-3 font-julius rounded-xl w-5/6 text-xs md:w-1/3 md:ml-10"/>                    
                     {errors.nombre && <span className="absolute mt-10 text-pink-300">{errors.nombre}</span>}
                 </div>
