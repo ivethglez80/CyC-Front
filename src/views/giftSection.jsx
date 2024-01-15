@@ -5,11 +5,11 @@ import box from "./../icons/gift-box_4530596.png"
 
 const GiftList = () =>{
 
-    const [showCard, setShowCard] = useState (false);
+    // const [showCard, setShowCard] = useState (false);
 
-    const toggleCard = () => {
-        setShowCard(!showCard)
-    };
+    // const toggleCard = () => {
+    //     setShowCard(!showCard)
+    // };
 
     return(
         <>
@@ -17,11 +17,13 @@ const GiftList = () =>{
         <img src={box} alt="" className="h-16 md:h-28"/>
         <h2 className="font-juana py-2 md:text-2xl md:py-4">REGALOS</h2>
         <p className="font-julius text-center text-xs pb-6 w-3/4 md:text-2xl md:w-2/3 md:px-36">Tu presencia es nuestro mejor regalo pero si queres obsequiarnos algo, podes hacerlo de la siguiente manera:</p>
-        <button className="bg-musgo hover:bg-musgo2 rounded-full py-2 w-4/6 md:w-2/6 font-julius text-white" onClick={toggleCard}>
+        <a href="https://docs.google.com/spreadsheets/d/1ZFra8s5DEJbr4x7o7oNG6_ddnfTX_AYaS0woSYMR664/edit?usp=sharing" target="_blank">
+        <button className="bg-musgo hover:bg-musgo2 rounded-full py-2 w-4/6 md:w-2/6 font-julius text-white">
             VER OPCIONES
         </button>
+        </a>
         </div>       
-            {showCard && <GiftOptionsCard closeCard = {toggleCard}/>} 
+{/*             {showCard && <GiftOptionsCard closeCard = {toggleCard}/>}  */}
         </>
     )
 }; 
