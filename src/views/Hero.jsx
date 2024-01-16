@@ -47,7 +47,7 @@ const Hero = () => {
 
                         <div className="md:h-screen md:flex md:items-center md:justify-center grid content-end">
                             <div className="md:w-11/12 ">
-                                <img src={hero1} alt="" className="md:h-screen object-cover md:py-5 rounded-full h-full z-[10]" />
+                                <img src={hero1} alt="" className="md:h-screen md:object-cover md:py-5 rounded-full z-[10]" />
                             </div>
                         </div>
                     </div>
