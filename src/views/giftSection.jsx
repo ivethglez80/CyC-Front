@@ -20,7 +20,7 @@ const GiftList = () =>{
         <div className="flex flex-col items-center pt-20 md:pt-32 z-[-10]">
         <img src={box} alt="" className="h-16 md:h-28"/>
         <h2 className="font-juana py-2 md:text-2xl md:py-4">REGALOS</h2>
-        <p className="font-julius text-center text-xs pb-6 w-3/4 md:text-2xl md:w-2/3 md:px-36">Tu presencia es nuestro mejor regalo pero si queres obsequiarnos algo, podes hacerlo de la siguiente manera:</p>
+        <p className="font-julius md:mx-16 text-center md:pt-10 py-4 px-4 text-sm md:text-base">Tu presencia es nuestro mejor regalo pero si queres obsequiarnos algo, podes hacerlo de la siguiente manera:</p>
         
         <button className="bg-musgo hover:bg-musgo2 rounded-full py-2 w-4/6 md:w-2/6 font-julius text-white" onClick={navToGiftSheets}>
             VER OPCIONES

@@ -53,7 +53,7 @@ const CountDown = ({ weddingDate }) => {
     return (
         <>
             <div className="bg-musgo flex flex-col pt-8 pb-4 md:mt-16 md:px-40 md:pt-16 md:pb-12">
-                <div className="font-seasons text-white flex justify-around md:text-3xl">
+                <div className="font-julius text-white flex justify-around md:text-3xl">
                     {timerComponents.length ? timerComponents : <span>Es el dia de tu boda!</span>}
                 </div>
                 <div className="font-seasons text-sm grid grid-cols-4 text-white md:text-xl md:pt-3">

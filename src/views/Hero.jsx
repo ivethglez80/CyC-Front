@@ -25,7 +25,7 @@ const Hero = () => {
                         </div>
 
                     </div>
-                    <p className="font-julius md:mx-16 text-center md:pt-10 py-2 text-xs md:text-base">Probad y ved que el Señor<br />
+                    <p className="font-julius md:mx-16 text-center md:pt-10 py-2 text-sm md:text-base">Probad y ved que el Señor<br />
                         es bueno. ¡Cuán bienaventurado <br /> es el hombre que en Él se refugia!<br />
                         salmos 34:8
                     </p>
@@ -33,11 +33,26 @@ const Hero = () => {
 
 
 
-                <div className="md:w-3/5 md:flex md:flex-row md:justify-center md:mr-10 
-                                "
-                >
+                <div className="md:w-3/5 md:flex md:flex-row md:justify-center md:mr-10 ">
 
-                    <div className="md:w-2/3 md:flex grid grid-cols-2 grid-rows-7">
+                        <img src={amorbg} alt="" className="z-[-10] absolute w-screen md:hidden" />
+                         
+                    <div className="md:w-2/3 flex flex-row gap-3 p-3 pb-20">
+                        <div className="pt-3  md:h-screen md:flex md:items-center md:justify-center">
+                            <div className="md:w-11/12 ">
+                                <img src={hero3} alt="" className="md:h-screen object-cover md:py-5 rounded-full z-[10]" />
+                            </div>
+                        </div>
+
+
+                        <div className="md:h-screen md:flex md:items-center md:justify-center translate-y-40 md:translate-y-0">
+                            <div className="md:w-11/12 ">
+                                <img src={hero1} alt="" className="md:h-screen object-cover md:py-5 rounded-full h-full z-[10]" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="md:w-2/3 md:flex grid grid-cols-2 grid-rows-7">
                         <img src={amorbg} alt="" className="z-[-10] absolute w-screen md:hidden" />
                         <div className="pt-3 col-start-1 col-span-1 row-start-1 row-span-4 md:h-screen md:flex md:items-center md:justify-center">
                             <div className="w-5/6 mx-auto md:w-11/12 overflow-hidden">
@@ -51,7 +66,7 @@ const Hero = () => {
                                 <img src={hero1} alt="" className="md:h-screen object-cover md:py-5 rounded-full h-full z-[10]" />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="md:w-1/3 md:h-screen md:flex md:items-center md:justify-center hidden">
                         <div className="md:w-11/12 h-10/12 overflow-hidden ">
@@ -61,7 +76,7 @@ const Hero = () => {
 
 
                 </div>
-                <div className="md:hidden border-b-2 border-zinc-300 w-5/6 mx-auto mb-10"></div>
+                <div className="md:hidden border-b-2 border-zinc-300 w-5/6 mx-auto mb-10 mt-32"></div>
             </div>
         </>
     )

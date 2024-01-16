@@ -13,9 +13,9 @@ const Date = () =>{
         </div>
 
         <div className="flex flex-row justify-center md:pt-12">
-            <div className="font-julius md:border-t-0 md:border-b-0 md:text-3xl md:w-2/6 border-t-2 border-b-2 uppercase h-7 w-24 text-center">30 marzo</div>
+            <div className="font-julius md:border-t-0 md:border-b-0 md:text-4xl text-base md:w-2/6 border-t-2 border-b-2 uppercase h-7 w-24 text-center">30 marzo</div>
             <div ><img src={cheers} alt="" className="h-12 mx-6 md:h-20"/></div>
-            <div className="font-julius md:border-t-0 md:border-b-0 md:text-3xl md:w-2/6 border-t-2 border-b-2 uppercase h-7 w-24 text-center ">11:30 am</div>
+            <div className="font-julius md:border-t-0 md:border-b-0 md:text-4xl text-base md:w-2/6 border-t-2 border-b-2 uppercase h-7 w-24 text-center ">11:30 am</div>
         </div>
 
         <div className="py-12">
