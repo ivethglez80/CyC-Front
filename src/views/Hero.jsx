@@ -35,17 +35,17 @@ const Hero = () => {
 
                 <div className="md:w-3/5 md:flex md:flex-row md:justify-center md:mr-10 ">
 
-                        <img src={amorbg} alt="" className="z-[-10] absolute w-screen md:hidden" />
+                        <img src={amorbg} alt="" className="z-[-10] absolute w-screen md:hidden pt-6" />
                          
-                    <div className="md:w-2/3 flex flex-row gap-3 p-3 pb-20">
-                        <div className="pt-3  md:h-screen md:flex md:items-center md:justify-center">
+                    <div className="md:w-2/3 h-[500px] flex flex-row gap-3 p-3">
+                        <div className="grid content-start md:h-screen md:flex md:items-center md:justify-center">
                             <div className="md:w-11/12 ">
                                 <img src={hero3} alt="" className="md:h-screen object-cover md:py-5 rounded-full z-[10]" />
                             </div>
                         </div>
 
 
-                        <div className="md:h-screen md:flex md:items-center md:justify-center translate-y-40 md:translate-y-0">
+                        <div className="md:h-screen md:flex md:items-center md:justify-center grid content-end">
                             <div className="md:w-11/12 ">
                                 <img src={hero1} alt="" className="md:h-screen object-cover md:py-5 rounded-full h-full z-[10]" />
                             </div>
@@ -76,7 +76,7 @@ const Hero = () => {
 
 
                 </div>
-                <div className="md:hidden border-b-2 border-zinc-300 w-5/6 mx-auto mb-10 mt-32"></div>
+                <div className="md:hidden border-b-2 border-zinc-300 w-5/6 mx-auto mb-10 mt-6"></div>
             </div>
         </>
     )
